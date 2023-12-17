@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 package provider
 
 import (
@@ -27,6 +24,6 @@ func TestAccExampleDataSource(t *testing.T) {
 
 const testAccExampleDataSourceConfig = `
 data "scaffolding_example" "test" {
-  configurable_attribute = "example"
+	configurable_attribute = "example"
 }
 `
